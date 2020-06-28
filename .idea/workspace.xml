@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22ea92cd-5ad1-400a-a54f-223cced72bd0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/code/2020-06-09-mybatis简单分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/code/2020-06-09-mybatis简单分析.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-06-08-about-me.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-06-08-about-me.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,24 +17,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2020-06-08-about-me.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret selection-end-line="3" selection-end-column="3" />
+              <first_editor relative-caret-position="68">
+                <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/code/2020-06-09-mybatis简单分析.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="365">
-                <caret line="59" column="209" selection-start-line="59" selection-start-column="209" selection-end-line="59" selection-end-column="209" />
+              <first_editor relative-caret-position="918">
+                <caret line="54" selection-start-line="54" selection-end-line="54" />
               </first_editor>
               <second_editor />
             </state>
@@ -42,8 +44,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,11 +74,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/_posts/2018-09-15-hello-world.html" />
-        <option value="$PROJECT_DIR$/_posts/2020-06-08-about-me.md" />
         <option value="$PROJECT_DIR$/_posts/_code/2020-06-09-mybatis简单分析.md" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_posts/code/2020-06-09-mybatis简单分析.md" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_posts/2020-06-08-about-me.md" />
       </list>
     </option>
   </component>
@@ -172,18 +177,21 @@
       <option name="presentableId" value="Default" />
       <updated>1566185427577</updated>
       <workItem from="1566185428937" duration="4047000" />
-      <workItem from="1591583008050" duration="13352000" />
+      <workItem from="1591583008050" duration="15765000" />
+      <workItem from="1592288979775" duration="611000" />
+      <workItem from="1592913426921" duration="155000" />
+      <workItem from="1593309238052" duration="20000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17399000" />
+    <option name="totallyTimeSpent" value="20598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25579977" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26495728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -213,43 +221,35 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2018-09-15-hello-world.html">
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="136">
-            <caret line="8" column="17" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-09-15-hello-world.html" />
+    <entry file="file://$PROJECT_DIR$/_posts/2020-06-09-mybatis简单分析.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2020-06-08-about-me.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="3" selection-end-column="3" />
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-06-09-mybatis简单分析.md">
+    <entry file="file://$PROJECT_DIR$/_posts/code/2020-06-09-mybatis简单分析.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="918">
+            <caret line="54" selection-start-line="54" selection-end-line="54" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -260,16 +260,6 @@
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/code/2020-06-09-mybatis简单分析.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="365">
-            <caret line="59" column="209" selection-start-line="59" selection-start-column="209" selection-end-line="59" selection-end-column="209" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
