@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="22ea92cd-5ad1-400a-a54f-223cced72bd0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/code/2020-09-01-高性能服务端搭建笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/code/2020-09-01-高性能服务端搭建笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/cook/2020-07-12-菜谱.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/cook/2020-07-12-菜谱.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,12 +28,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/code/2020-09-01-高性能服务端搭建笔记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="238">
-                <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-end-line="15" />
+              <first_editor relative-caret-position="306">
+                <caret line="18" column="31" selection-start-line="18" selection-end-line="19" />
               </first_editor>
               <second_editor />
             </state>
@@ -64,12 +64,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/cook/2020-07-12-菜谱.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="170">
-                <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <first_editor relative-caret-position="136">
+                <caret line="8" column="114" selection-start-line="8" selection-start-column="114" selection-end-line="8" selection-end-column="114" />
               </first_editor>
               <second_editor />
             </state>
@@ -120,8 +120,8 @@
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_posts/2020-06-08-about-me.md" />
         <option value="$PROJECT_DIR$/_posts/code/2020-09-22-缓存在服务端的一些实践.md" />
-        <option value="$PROJECT_DIR$/_posts/cook/2020-07-12-菜谱.md" />
         <option value="$PROJECT_DIR$/_posts/code/2020-09-01-高性能服务端搭建笔记.md" />
+        <option value="$PROJECT_DIR$/_posts/cook/2020-07-12-菜谱.md" />
       </list>
     </option>
   </component>
@@ -135,7 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,6 +168,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -242,18 +242,20 @@
       <workItem from="1606873310135" duration="597000" />
       <workItem from="1606965228196" duration="9782000" />
       <workItem from="1607500211461" duration="1700000" />
-      <workItem from="1607912975003" duration="63000" />
+      <workItem from="1607912975003" duration="767000" />
+      <workItem from="1608084910182" duration="598000" />
+      <workItem from="1609069825303" duration="83000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54083000" />
+    <option name="totallyTimeSpent" value="55468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17399268" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17765568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -335,21 +337,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/cook/2020-07-12-菜谱.md">
+    <entry file="file://$PROJECT_DIR$/_posts/code/2020-09-01-高性能服务端搭建笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="170">
-            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <first_editor relative-caret-position="306">
+            <caret line="18" column="31" selection-start-line="18" selection-end-line="19" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/code/2020-09-01-高性能服务端搭建笔记.md">
+    <entry file="file://$PROJECT_DIR$/_posts/cook/2020-07-12-菜谱.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="238">
-            <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-end-line="15" />
+          <first_editor relative-caret-position="136">
+            <caret line="8" column="114" selection-start-line="8" selection-start-column="114" selection-end-line="8" selection-end-column="114" />
           </first_editor>
           <second_editor />
         </state>
