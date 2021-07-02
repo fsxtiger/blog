@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22ea92cd-5ad1-400a-a54f-223cced72bd0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2020-06-08-about-me.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-06-08-about-me.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/code/2021-07-01-使用堆外内存优化服务.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/code/2021-07-01-使用堆外内存优化服务.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +15,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2020-06-08-about-me.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="272">
-                <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+              <first_editor relative-caret-position="391">
+                <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/code/2021-07-01-使用堆外内存优化服务.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="573">
+                <caret line="50" column="175" lean-forward="true" selection-start-line="50" selection-end-line="51" />
               </first_editor>
               <second_editor />
             </state>
@@ -31,8 +43,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/code/2020-09-01-高性能服务端搭建笔记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="442">
-                <caret line="26" column="301" selection-start-line="26" selection-start-column="137" selection-end-line="26" selection-end-column="301" />
+              <first_editor relative-caret-position="119">
+                <caret line="7" column="12" selection-start-line="7" selection-end-line="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -55,8 +67,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/code/2020-06-09-mybatis简单分析.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret selection-end-line="3" selection-end-column="3" />
+              <first_editor relative-caret-position="1003">
+                <caret line="59" column="210" selection-start-line="59" selection-start-column="103" selection-end-line="59" selection-end-column="210" />
               </first_editor>
               <second_editor />
             </state>
@@ -91,8 +103,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/code/2020-11-02-日志查询工具.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="510">
-                <caret line="30" column="75" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
+              <first_editor>
+                <caret selection-end-line="3" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -148,6 +160,8 @@
         <option value="$PROJECT_DIR$/_posts/code/2020-11-02-日志查询工具.md" />
         <option value="$PROJECT_DIR$/_posts/blog/2021-06-03-致自己.md" />
         <option value="$PROJECT_DIR$/_posts/2020-06-08-about-me.md" />
+        <option value="$PROJECT_DIR$/_posts/code/2021-07-01使用堆外内存优化服务.md" />
+        <option value="$PROJECT_DIR$/_posts/code/2021-07-01-使用堆外内存优化服务.md" />
       </list>
     </option>
   </component>
@@ -161,6 +175,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,8 +216,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,18 +296,22 @@
       <workItem from="1620996858725" duration="2413000" />
       <workItem from="1621216653348" duration="612000" />
       <workItem from="1622730579337" duration="1963000" />
-      <workItem from="1624885884225" duration="1856000" />
+      <workItem from="1624885884225" duration="2193000" />
+      <workItem from="1625208957787" duration="2880000" />
+      <workItem from="1625230163750" duration="542000" />
+      <workItem from="1625486234530" duration="1323000" />
+      <workItem from="1625562890004" duration="3792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71306000" />
+    <option name="totallyTimeSpent" value="80180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1680" height="940" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18681319" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1904762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -325,11 +343,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_posts/2018-09-15-hello-world.html" />
     <entry file="file://$PROJECT_DIR$/_posts/2020-06-09-mybatis简单分析.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/code/2021-07-01使用堆外内存优化服务.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/2020-06-08-about-me.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="391">
+            <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/code/2020-09-01-高性能服务端搭建笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="442">
-            <caret line="26" column="301" selection-start-line="26" selection-start-column="137" selection-end-line="26" selection-end-column="301" />
+          <first_editor relative-caret-position="119">
+            <caret line="7" column="12" selection-start-line="7" selection-end-line="8" />
           </first_editor>
           <second_editor />
         </state>
@@ -348,8 +377,18 @@
     <entry file="file://$PROJECT_DIR$/_posts/code/2020-06-09-mybatis简单分析.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="3" selection-end-column="3" />
+          <first_editor relative-caret-position="1003">
+            <caret line="59" column="210" selection-start-line="59" selection-start-column="103" selection-end-line="59" selection-end-column="210" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/blog/2021-06-03-致自己.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="153">
+            <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           </first_editor>
           <second_editor />
         </state>
@@ -368,8 +407,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/code/2020-11-02-日志查询工具.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="510">
-            <caret line="30" column="75" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
+          <first_editor>
+            <caret selection-end-line="3" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
@@ -395,21 +434,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/blog/2021-06-03-致自己.md">
+    <entry file="file://$PROJECT_DIR$/_posts/code/2021-07-01-使用堆外内存优化服务.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="153">
-            <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-06-08-about-me.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="272">
-            <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <first_editor relative-caret-position="573">
+            <caret line="50" column="175" lean-forward="true" selection-start-line="50" selection-end-line="51" />
           </first_editor>
           <second_editor />
         </state>
