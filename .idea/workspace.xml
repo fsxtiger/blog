@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22ea92cd-5ad1-400a-a54f-223cced72bd0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/code/2021-07-01-使用堆外内存优化服务.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/code/2021-07-01-使用堆外内存优化服务.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/code/2021-11-13-服务报OOM分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/code/2021-11-13-服务报OOM分析.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +15,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/code/2021-07-01-使用堆外内存优化服务.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="558">
-                <caret line="59" column="110" selection-start-line="59" selection-start-column="110" selection-end-line="59" selection-end-column="110" />
+              <first_editor relative-caret-position="374">
+                <caret line="22" column="120" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="120" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/code/2021-11-13-服务报OOM分析.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="425">
+                <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
               </first_editor>
               <second_editor />
             </state>
@@ -31,20 +43,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/code/2021-07-26-Object.hashCode探秘.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="442">
-                <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/code/2020-09-01-高性能服务端搭建笔记.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="85">
-                <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+              <first_editor>
+                <caret selection-end-line="3" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -166,6 +166,7 @@
         <option value="$PROJECT_DIR$/_posts/code/2021-07-26-Object#hashCode探秘.md" />
         <option value="$PROJECT_DIR$/_posts/code/2021-07-26-Object.hashCode探秘.md" />
         <option value="$PROJECT_DIR$/_posts/code/2021-07-01-使用堆外内存优化服务.md" />
+        <option value="$PROJECT_DIR$/_posts/code/2021-11-13-服务报OOM分析.md" />
       </list>
     </option>
   </component>
@@ -307,18 +308,21 @@
       <workItem from="1625562890004" duration="4390000" />
       <workItem from="1627261742162" duration="6198000" />
       <workItem from="1627279861059" duration="20000" />
-      <workItem from="1636698877617" duration="558000" />
+      <workItem from="1636698877617" duration="5665000" />
+      <workItem from="1637659222019" duration="346000" />
+      <workItem from="1637660002707" duration="138000" />
+      <workItem from="1637734614974" duration="1036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87554000" />
+    <option name="totallyTimeSpent" value="94181000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1680" height="940" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26739928" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1916972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -372,6 +376,31 @@
             <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/code/2021-07-01-使用堆外内存优化服务.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="374">
+            <caret line="22" column="120" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="120" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/code/2021-07-26-Object.hashCode探秘.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="3" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -445,26 +474,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/code/2021-07-26-Object.hashCode探秘.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/_posts/code/2021-11-13-服务报OOM分析.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="442">
-            <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/code/2021-07-01-使用堆外内存优化服务.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="558">
-            <caret line="59" column="110" selection-start-line="59" selection-start-column="110" selection-end-line="59" selection-end-column="110" />
+          <first_editor relative-caret-position="425">
+            <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
           </first_editor>
           <second_editor />
         </state>
