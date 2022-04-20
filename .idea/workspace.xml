@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22ea92cd-5ad1-400a-a54f-223cced72bd0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/code/2022-03-20-为啥你的None!=None.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/code/2022-03-20-为啥你的None!=None.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-06-08-about-me.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-06-08-about-me.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/blog/2021-06-03-致自己.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/blog/2021-06-03-致自己.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +31,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
