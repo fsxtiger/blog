@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22ea92cd-5ad1-400a-a54f-223cced72bd0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-06-08-about-me.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-06-08-about-me.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/blog/2021-06-03-致自己.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/blog/2021-06-03-致自己.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/code/2021-07-01-使用堆外内存优化服务.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/code/2021-07-01-使用堆外内存优化服务.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +133,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_layouts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -148,6 +146,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_layouts" />
       <recent name="$PROJECT_DIR$/_posts" />
     </key>
   </component>
