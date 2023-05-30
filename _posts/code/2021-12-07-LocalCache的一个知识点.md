@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 服务报FULL GC排查分析
+title: LocalCache的一个知识点
 ---
 
 笔者曾协助调查，某服务部署时频繁发生full gc的原因。将调查过程记录下来，一来积累排查线上事故的经验。另外，由于这次事故是由于guava包中的cache使用不当造成的，希望通过本次事故，加深了对guava cache的一些认识。  
