@@ -132,4 +132,4 @@ moviePy框架
 重新运行python脚本, 如下所示:
 <img src="http://glsp-img.unipus.cn/glsp/prod/public/avatar/image/20240204/webm5.png" height = "500" width="100%"/>
 
-可以看到加载webm视频的FFmpeg进程，已经使用libvpx-vp9编码器，生成视频也指定libvpx-vp9编码器。代码已上传[github](https://github.com/fsxtiger/code/blob/master/script/WebmVideoFileClip.py)。加载视频的时候使用WebmVideoFileClip类，合成视频使用WebmCompositeVideoClip类。测试运行正常。
+可以看到加载webm视频的FFmpeg进程，已经使用libvpx-vp9编码器，生成视频也指定libvpx-vp9编码器。代码已上传[github](https://github.com/fsxtiger/code/blob/master/mediaPython/src/WebmVideoFileClip.py)。加载视频的时候使用WebmVideoFileClip类，合成视频使用WebmCompositeVideoClip类。测试运行正常。
