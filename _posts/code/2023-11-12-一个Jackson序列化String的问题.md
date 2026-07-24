@@ -28,11 +28,11 @@ public class GlspRedisTemplateUtil {
 
 <img src="http://dbp-resource.cdn.bcebos.com/9abe0e71-8c18-ab1c-22ac-a4f210feae48/fastJson2.jpeg" height = "300" width="100%"/>
 
-笔者发现数字字符串“6”，Jackson解析后的字节数组为[34, 54, 34]，ASCII码34 对应的字符是"，因此在序列化时，Jackson将字符串的引号也进行了序列化。笔者写Demo验证，如果序列化结果中带上”, 即便type是Object.class，Jackson 会转换成String。通过命令行直接查看redis也可以证明：  
+笔者发现数字字符串"6"，Jackson解析后的字节数组为[34, 54, 34]，ASCII码34 对应的字符是"，因此在序列化时，Jackson将字符串的引号也进行了序列化。笔者写Demo验证，如果序列化结果中带上”, 即便type是Object.class，Jackson 会转换成String。通过命令行直接查看redis也可以证明：  
 
 <img src="http://dbp-resource.cdn.bcebos.com/9abe0e71-8c18-ab1c-22ac-a4f210feae48/FastJson4.jpeg" height = "300" width="100%"/>
 
-既然set操作Jackson 会自动将” 也一并序列化，那同事是如何在redis 中存入数字字符串的，经过沟通同事是通过incr方法来设置的。incre命令的value最终值是由redis计算得出的，结果是不带引号的，所以get的时候会抛异常。同时笔者也验证了，如果对一个key首先进行set，然后incr，同样会抛异常，而且这种情况不仅使用Jackson会出现，使用FastJson也会出现。  
+既然set操作Jackson 会自动将" 也一并序列化，那同事是如何在redis 中存入数字字符串的，经过沟通同事是通过incr方法来设置的。incre命令的value最终值是由redis计算得出的，结果是不带引号的，所以get的时候会抛异常。同时笔者也验证了，如果对一个key首先进行set，然后incr，同样会抛异常，而且这种情况不仅使用Jackson会出现，使用FastJson也会出现。  
 
 那么应该如何设计这段代码，可以避免get时抛出异常，同时incr时也可以正常使用。笔者根据经验，觉得较好的设计可以有如下两种：
 1. 当前代码不做修改，get只允许set方式设置的值，incr设置的值依旧不能get。incr方法已经将value返回，很容易推导出incr之前的值来进行逻辑判断，没有必要单独get
